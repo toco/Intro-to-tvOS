@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD402B5E1BEB7E6900657CCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD402B5D1BEB7E6900657CCB /* AppDelegate.swift */; };
+		DD402B601BEB7E6900657CCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD402B5F1BEB7E6900657CCB /* ViewController.swift */; };
+		DD402B631BEB7E6900657CCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD402B611BEB7E6900657CCB /* Main.storyboard */; };
+		DD402B651BEB7E6900657CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD402B641BEB7E6900657CCB /* Assets.xcassets */; };
+		DD402B6D1BEB815E00657CCB /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD402B6C1BEB815E00657CCB /* MyButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD402B5A1BEB7E6900657CCB /* FocusDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD402B5D1BEB7E6900657CCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD402B5F1BEB7E6900657CCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD402B621BEB7E6900657CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD402B641BEB7E6900657CCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD402B661BEB7E6900657CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD402B6C1BEB815E00657CCB /* MyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD402B571BEB7E6900657CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD402B511BEB7E6900657CCB = {
+			isa = PBXGroup;
+			children = (
+				DD402B5C1BEB7E6900657CCB /* FocusDemo */,
+				DD402B5B1BEB7E6900657CCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD402B5B1BEB7E6900657CCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD402B5A1BEB7E6900657CCB /* FocusDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD402B5C1BEB7E6900657CCB /* FocusDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DD402B5D1BEB7E6900657CCB /* AppDelegate.swift */,
+				DD402B5F1BEB7E6900657CCB /* ViewController.swift */,
+				DD402B6C1BEB815E00657CCB /* MyButton.swift */,
+				DD402B611BEB7E6900657CCB /* Main.storyboard */,
+				DD402B641BEB7E6900657CCB /* Assets.xcassets */,
+				DD402B661BEB7E6900657CCB /* Info.plist */,
+			);
+			path = FocusDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD402B591BEB7E6900657CCB /* FocusDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD402B691BEB7E6900657CCB /* Build configuration list for PBXNativeTarget "FocusDemo" */;
+			buildPhases = (
+				DD402B561BEB7E6900657CCB /* Sources */,
+				DD402B571BEB7E6900657CCB /* Frameworks */,
+				DD402B581BEB7E6900657CCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FocusDemo;
+			productName = FocusDemo;
+			productReference = DD402B5A1BEB7E6900657CCB /* FocusDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD402B521BEB7E6900657CCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Tobias Conradi";
+				TargetAttributes = {
+					DD402B591BEB7E6900657CCB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = DD402B551BEB7E6900657CCB /* Build configuration list for PBXProject "FocusDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD402B511BEB7E6900657CCB;
+			productRefGroup = DD402B5B1BEB7E6900657CCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD402B591BEB7E6900657CCB /* FocusDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD402B581BEB7E6900657CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD402B651BEB7E6900657CCB /* Assets.xcassets in Resources */,
+				DD402B631BEB7E6900657CCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD402B561BEB7E6900657CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD402B601BEB7E6900657CCB /* ViewController.swift in Sources */,
+				DD402B5E1BEB7E6900657CCB /* AppDelegate.swift in Sources */,
+				DD402B6D1BEB815E00657CCB /* MyButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD402B611BEB7E6900657CCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD402B621BEB7E6900657CCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD402B671BEB7E6900657CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		DD402B681BEB7E6900657CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD402B6A1BEB7E6900657CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FocusDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.tobias-conradi.FocusDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD402B6B1BEB7E6900657CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FocusDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.tobias-conradi.FocusDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD402B551BEB7E6900657CCB /* Build configuration list for PBXProject "FocusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD402B671BEB7E6900657CCB /* Debug */,
+				DD402B681BEB7E6900657CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD402B691BEB7E6900657CCB /* Build configuration list for PBXNativeTarget "FocusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD402B6A1BEB7E6900657CCB /* Debug */,
+				DD402B6B1BEB7E6900657CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD402B521BEB7E6900657CCB /* Project object */;
+}
